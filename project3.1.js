@@ -3,10 +3,10 @@
 // Isaac Vazquez
 // 01-21-15
 
-// global variables
+// Declare variables
 var doggySpas = ["Dog Spa 1", "Dog Spa 2", "Dog Spa 3"];
 
-    minutesPerSpa = [20, 25, 35];
+var minutesPerSpa = [20, 25, 35];
     
 var dogNames = ['Odie','Bentley','Kita'];
     
@@ -18,17 +18,24 @@ var dogNames = ['Odie','Bentley','Kita'];
 	dogNames[1] = "Bentley";
 	dogNames[2] = "Kita";
 	
+	console.log("How many dogs at the spa " + dogNames.length);
+	
 	
    var visitDogSpa = function(theSpa) {
 
     var doggySpa = doggySpas[theSpa],
     
         minutesThisSpa = minutesPerSpa[spaNum];
-           
-	         
-      console.log("How many dogs at the spa " + dogNames.length); 
-	
         
+        function searchForBooks(dogNames) {
+
+		
+	}
+	
+           
+	  console.log(dogNames[0]);
+	  console.log(dogNames[1]);
+	  console.log(dogNames[2]);       
         
     console.log(dogNames[0, 1, 2] + " went to the " + doggySpa +
         " for " + minutesThisSpa + " minutes. So I set the timer on" +
