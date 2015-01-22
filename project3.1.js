@@ -2,13 +2,12 @@
 
 // Isaac Vazquez
 // 01-21-15
+// Project 3
 
 // Declare variables
-var doggySpas = ["Dog Spa 1", "Dog Spa 2", "Dog Spa 3"];
-
-var minutesPerSpa = [20, 25, 35];
-    
-var dogNames = ['Odie','Bentley','Kita'];
+var doggySpas = ["Dog Spa bath", "Dog Spa hair trim", "Dog Spa nail trim"];
+var minutesPerSpa = [30, 45, 25];
+var dogNames = ["Odie","Bentley","Kita"];
     
 // my functions 
 
@@ -18,7 +17,8 @@ var dogNames = ['Odie','Bentley','Kita'];
 	dogNames[1] = "Bentley";
 	dogNames[2] = "Kita";
 	
-	console.log("How many dogs at the spa " + dogNames.length);
+	console.log("How many dogs do I have " + dogNames.length);
+	console.log("Only dropped off one of my dogs at the " + doggySpas + ".");
 	
 	
   var visitDogSpa = function(theSpa) {
@@ -26,11 +26,20 @@ var dogNames = ['Odie','Bentley','Kita'];
     var doggySpa = doggySpas[theSpa],
     
         minutesThisSpa = minutesPerSpa[spaNum];
-            
-	
         
+// Conditionals
+var dogSpaOpen = true;
+
+if (dogSpaOpen === true) {
+	console.log("Odie will be nice and clean!");
+} else {
+	console.log("Odie will be dirty and smelly!");
+	            
+};        
+             
+      
         
-    console.log(dogNames[0, 1, 2] + " went to the " + doggySpa +
+    console.log(dogNames[0] + " went to the " + doggySpa +
         " for " + minutesThisSpa + " minutes. So I set the time on" +
         " my iphone.");
       
@@ -43,13 +52,15 @@ var dogNames = ['Odie','Bentley','Kita'];
                 
         };
     console.log("We finished with the " + doggySpa + ".");
+    console.log("Odie is ready for pick up.");
+    
 
 };
 for (var spaNum = 0; spaNum < doggySpas.length; spaNum++) {
     visitDogSpa(spaNum);
 
 for (var dogNum = 0; dogNum < dogNames.length; dogNum++);    
-    
+    (dogNum);
 
      
      };   
