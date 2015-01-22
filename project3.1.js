@@ -21,25 +21,19 @@ var dogNames = ['Odie','Bentley','Kita'];
 	console.log("How many dogs at the spa " + dogNames.length);
 	
 	
-   var visitDogSpa = function(theSpa) {
+  var visitDogSpa = function(theSpa) {
 
     var doggySpa = doggySpas[theSpa],
     
         minutesThisSpa = minutesPerSpa[spaNum];
+            
+	
         
-    
-        
-      
-           
-	  console.log(dogNames[0]);
-	  console.log(dogNames[1]);
-	  console.log(dogNames[2]);      
         
     console.log(dogNames[0, 1, 2] + " went to the " + doggySpa +
-        " for " + minutesThisSpa + " minutes. So I set the timer on" +
-        " my iphone.");  
-        
-    
+        " for " + minutesThisSpa + " minutes. So I set the time on" +
+        " my iphone.");
+      
         
     for (var minutes = 0; minutes < minutesThisSpa; minutes += 5) {
             var minutesRemain = minutesThisSpa - minutes;
@@ -48,15 +42,15 @@ var dogNames = ['Odie','Bentley','Kita'];
                 minutes + " minutes have past.");
                 
         };
-        
-    console.log("We finished with the " + doggySpa + "."); {
+    console.log("We finished with the " + doggySpa + ".");
 
 };
-
-for (var spaNum = 0; spaNum < doggySpas.length; spaNum++)
+for (var spaNum = 0; spaNum < doggySpas.length; spaNum++) {
     visitDogSpa(spaNum);
-    
-      
 
- };   
- 
+for (var dogNum = 0; dogNum < dogNames.length; dogNum++);    
+    
+
+     
+     };   
+   
