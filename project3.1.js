@@ -27,20 +27,19 @@ var dogNames = ['Odie','Bentley','Kita'];
     
         minutesThisSpa = minutesPerSpa[spaNum];
         
-        function searchForBooks(dogNames) {
-
-		
-	}
-	
+    
+        
+      
            
 	  console.log(dogNames[0]);
 	  console.log(dogNames[1]);
-	  console.log(dogNames[2]);       
+	  console.log(dogNames[2]);      
         
     console.log(dogNames[0, 1, 2] + " went to the " + doggySpa +
         " for " + minutesThisSpa + " minutes. So I set the timer on" +
-        " my iphone.");
-      
+        " my iphone.");  
+        
+    
         
     for (var minutes = 0; minutes < minutesThisSpa; minutes += 5) {
             var minutesRemain = minutesThisSpa - minutes;
@@ -49,15 +48,15 @@ var dogNames = ['Odie','Bentley','Kita'];
                 minutes + " minutes have past.");
                 
         };
-    console.log("We finished with the " + doggySpa + ".");
+        
+    console.log("We finished with the " + doggySpa + "."); {
 
 };
-for (var spaNum = 0; spaNum < doggySpas.length; spaNum++) {
+
+for (var spaNum = 0; spaNum < doggySpas.length; spaNum++)
     visitDogSpa(spaNum);
-
-for (var dogNum = 0; dogNum < dogNames.length; dogNum++);    
     
+      
 
-     
-     };   
+ };   
  
