@@ -58,9 +58,13 @@ if (dogSpaOpen === true) {
 };
 for (var spaNum = 0; spaNum < doggySpas.length; spaNum++) {
     visitDogSpa(spaNum);
+    };
 
-for (var dogNum = 0; dogNum < dogNames.length; dogNum++);    
-    (dogNum);
+// JSON data
+var myJSON = function() {
+
+	console.log(jsonData);
+    
 
      
      };   
