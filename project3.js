@@ -35,10 +35,11 @@ if (dogSpaOpen === true) {
 } else {
 	console.log("Odie will be dirty and smelly!");
 	            
-};        
+}; 
+	       
              
       
-        
+// While Loop        
     console.log(dogNames[0] + " went to the " + doggySpa +
         " for " + minutesThisSpa + " minutes. So I set the time on" +
         " my iphone.");
